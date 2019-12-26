@@ -6,6 +6,14 @@
   padding:150px; 
 }
 
+.app-image{
+  list-style:none;
+  display:inline;
+  font-size: 20px; 
+  float:right;
+  width:25px;
+}
+
 #google-image{
   display:block;
   position:center;
@@ -15,15 +23,16 @@
   padding:150px;
 }
 
-.header-op{
+.header-ops{
   padding:5px;
   color:black;
   text-decoration:none;
 }
 
-.header-op:hover{
-  text-decoration:underline;
+.header-ops:hover{
+   text-decoration:underline;
 }
+
 
 @media (max-width:400px;){
   .header-op{
@@ -33,12 +42,17 @@
   }
 }
 
-li{
+.ops-left{
+  list-style:none;
+  display:inline;
+  font-size: 20px; 
+}
+
+.ops-right{
   list-style:none;
   display:inline;
   font-size: 20px; 
   float:right;
-  margin:
 }
 
 #searches{
@@ -103,3 +117,7 @@ li{
   padding-top:40px;
   
 }
+
+
+
+
