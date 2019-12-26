@@ -3,6 +3,15 @@
   position:center;
   margin-left:auto;
   margin-right:auto;
+  padding:150px; 
+}
+
+#google-image{
+  display:block;
+  position:center;
+  margin-top:-200px;
+  margin-left:auto;
+  margin-right:auto;
   padding:150px;
 }
 
@@ -29,43 +38,68 @@ li{
   display:inline;
   font-size: 20px; 
   float:right;
+  margin:
 }
 
-#search:hover{
-  border-style:solid;
-  border-color:gray;
-  border-width:1px;
-}
-
-#search{
-  display:block;
-  position:center;
-  border-style:none; 
-  margin-left:64em;
+#searches{
+  border-radius:25px;
+  min-width:410px;
+  max-width:500px;
+  margin-left:auto;
+  margin-right:auto;
   margin-top:25px;
 }
 
-.form{
- display:block;
- margin-left:55em;
- margin-top:-110px;
- padding-right:350px;
- border-style:solid;
- border-radius:25px;
- padding-bottom:15px;
+#search-google{
+  margin-left:100px;
+  padding:8px;
+  padding-left:15px;
+  padding-right:15px;
+  border-style:none;
+  background-color: rgb(224,224,224);
+  font-family:arial;
+  border-radius:5px;
 }
 
-#lucky:hover{
+#search-google:hover{
   border-style:solid;
   border-color:gray;
   border-width:1px;
+  background-color:rgb(240,239,239);
+  border-radius:5px;
 }
 
-#lucky{
-  display:block;
-  position:center;
-  border-style:none; 
-  margin-left:75em;
-  margin-top:-16px;
-  padding-bottom:
+
+#search-lucky{
+  border-style:none;
+  margin-left:25px;
+  padding:8px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color: rgb(224,224,224);
+  font-family:arial;
+  border-radius:5px;
+}
+
+#search-lucky:hover{
+  border-style:solid;
+  border-color:gray;
+  border-width:1px;
+  background-color:rgb(240,239,239);
+  border-radius:5px;
+}
+
+#search-box-container{
+  border-radius:25px;
+  border-style:solid;
+  border-width:1px;
+  border-color:gray;
+  min-width:410px;
+  max-width:500px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:-240px;
+  padding-left:100px;
+  padding-top:40px;
+  
 }
